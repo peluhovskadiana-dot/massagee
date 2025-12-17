@@ -1,3 +1,28 @@
 .main{
-    background-color: red;
+    background-color: rgb(25, 3, 3);
+}
+.hero {
+    height: 100vh;
+    background: url('img/Iframe+BackgroundColor.png') no-repeat center center/cover;
+    color: white;
+}
+.about {
+    height: 100vh;
+    background: url('img/About+BackgroundColor.png') no-repeat center center/cover;
+    color: white;
+    img{
+        border-radius: 50%;
+        width: 19%;
+    }
+}
+.p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 0;
+position: absolute;
+width: 1203px;
+height: 115px;
+left: 358px;
+top: 799px;
+color: aliceblue;
 }
