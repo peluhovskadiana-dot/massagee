@@ -1,31 +1,30 @@
-.main{
-    background-color: rgb(25, 3, 3);
+.main {
+  background-color: rgb(25, 3, 3);
 }
 .hero {
-    height: 100vh;
-    background: url('img/Iframe+BackgroundColor.png') no-repeat center center/cover;
-    color: white;
+  height: 100vh;
+  background: url("img/Iframe+BackgroundColor.png") no-repeat center center/cover;
+  color: white;
 }
 .about {
-    height: 100vh;
-    background: url('img/About+BackgroundColor.png') no-repeat center center/cover;
-    color: white;
-    img{
-        border-radius: 50%;
-        width: 19%;
-    }
+  height: 100vh;
+  background: url("img/About+BackgroundColor.png") no-repeat center center/cover;
+  color: white;
+  img {
+    border-radius: 50%;
+    width: 19%;
+  }
 }
-.p{
-    font-size: 20px;
-    text-align: justify;
-    margin: 20px 0;
-width: 1203px;
-height: 115px;
-left: 358px;
-top: 799px;
-color: rgb(236, 237, 239);
+.p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px 0;
+  width: 1203px;
+  height: 115px;
+  left: 358px;
+  top: 799px;
+  color: rgb(236, 237, 239);
 }
-.price img{
-   max-width: 100%;
-   
+.prise img {
+  max-width: 100%;
 }
