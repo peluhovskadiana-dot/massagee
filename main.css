@@ -24,5 +24,13 @@ width: 1203px;
 height: 115px;
 left: 358px;
 top: 799px;
-color: aliceblue;
+color: rgb(236, 237, 239);
+}
+.h2{
+    position: absolute;
+    width: 1203px;
+    height: 115px;
+    left: 358px;
+    top: 799px;
+    color: rgb(236, 237, 239);
 }
