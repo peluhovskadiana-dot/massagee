@@ -28,3 +28,14 @@
 .prise img {
   max-width: 100%;
 }
+.prise2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  div {
+    width: 50%;
+    img {
+      height: 100%;
+    }
+  }
+}
