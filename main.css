@@ -25,3 +25,6 @@ left: 358px;
 top: 799px;
 color: rgb(236, 237, 239);
 }
+.price img{
+   max-width: 100%;
+}
