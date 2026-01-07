@@ -1,5 +1,7 @@
 .about{
     background-color: blue;
+    align-items: center;
+    display: flex;
 }
 .h2{
     color: white
@@ -7,8 +9,17 @@
 .about-text{
     font-size: 20px;
     text-align: center;
-    margin: 20px 0;
-    color: rgb(236, 237, 239);
-    line-height: 1.6;
+    color: white;
     max-width: 400px;
+    justify-self: center;
+}
+.p{
+    color: white;
+    align-content: center;
+}
+.about-section{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
