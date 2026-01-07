@@ -11,7 +11,8 @@
     text-align: center;
     color: white;
     max-width: 400px;
-    justify-self: center;
+    justify-content: center;
+    border: 1px solid white;
 }
 .p{
     color: white;
@@ -22,4 +23,14 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    margin-top: 40px;
+
+}
+.p{
+    color: white;
+    text-align: right;
+    justify-self: flex-end;
+    display: flex;
+
 }
