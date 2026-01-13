@@ -7,13 +7,20 @@
   color: white;
 }
 .about {
-  height: 100vh;
+  padding: 60px 20px;
   background: url("img/About+BackgroundColor.png") no-repeat center center/cover;
   color: white;
+  text-align: center;
   img {
     border-radius: 50%;
     width: 19%;
   }
+}
+
+.about-text {
+  color: white;
+  text-align: center;
+  margin: 80px 0;
 }
 .p {
   font-size: 20px;
