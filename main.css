@@ -39,23 +39,27 @@
     }
   }
 }
-.prise p{
-    color: white;
+.prise p {
+  color: white;
 }
-.contact .mb-3{
+.contact .mb-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+  .contact-image {
+    width: 50px;
+    height: 50px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
     justify-content: center;
-    .contact-image{
-        width: 50px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-    }
+    gap: 30px;
+  }
+}
 
+.blog {
+}
 
-    
+.blog img {
+  width: 49%;
 }
