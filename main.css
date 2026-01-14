@@ -64,9 +64,15 @@
   }
 }
 
+
 .blog {
 }
 
 .blog img {
   width: 49%;
+}
+.contact-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
