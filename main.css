@@ -31,6 +31,7 @@
   left: 358px;
   top: 799px;
   color: rgb(236, 237, 239);
+  
 }
 .prise img {
   max-width: 100%;
@@ -63,9 +64,15 @@
     gap: 30px;
   }
 }
+.contact{
+    color: white;
+    text-align: center;
+}
 
 
 .blog {
+    color: white;
+    text-align: center;
 }
 
 .blog img {
