@@ -95,4 +95,11 @@ p {
 }
 .absolute {
     position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    
 }
