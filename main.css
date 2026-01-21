@@ -31,7 +31,13 @@
   left: 358px;
   top: 799px;
   color: rgb(236, 237, 239);
+}
+p {
+  color: white;
+  text-align: right;
+  padding-right: 20px;
   
+
 }
 .prise img {
   max-width: 100%;
