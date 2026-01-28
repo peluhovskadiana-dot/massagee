@@ -18,3 +18,11 @@ animate(chars, {
   loopDelay: 1000,
   loop: true,
 });
+const textDisplay = document.querySelector('.text');
+let text = 'Контакти';
+
+for (let i = 0; i < text.length; i++){
+  setTimeout(function () {
+    textDisplay.innerHTML += text[i];
+  }, 100 * i);
+}
