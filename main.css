@@ -59,7 +59,9 @@ p {
 }
 .prise p {
   color: white;
+  font-size: 25px;
 }
+
 .contact .mb-3 {
   display: flex;
   flex-direction: row;
