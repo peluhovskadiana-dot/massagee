@@ -16,9 +16,9 @@
   </head>
   <body class="main">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar w/ text</a>
+          <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="" /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,16 +33,21 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-white active" aria-current="page" href="./index.html#about">Про нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link text-white" href="./index.html#prise">Прайс</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link text-white" href="./index.html#contact">Контакти</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./about.html">Запис</a>
               </li>
             </ul>
-            <span class="navbar-text"> Navbar text with an inline element </span>
+            <a href="https://www.instagram.com/1dianwerg?igsh=MXRtenNzcHRza2Rxbg==" class="navbar-text text-white"
+              >Автор</a
+            >
           </div>
         </div>
       </nav>
@@ -50,11 +55,37 @@
     <main>
       <section class="about">
         <h1>Сторінка про нас</h1>
+
+        <div class="row">
+          <div class="col-md-6"><img src="./img/logo.png" alt="" /></div>
+          <div class="col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1206.5129217597475!2d30.101232987881914!3d49.804166190181945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d342254f27557f%3A0xe62e5aee20bdd9b6!2zItCh0KLQmNCc0KPQmyI!5e0!3m2!1suk!2sua!4v1768361829266!5m2!1suk!2sua"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>&copy; 2025</p>
+    <footer class="container py-4">
+      <div class="contacts">
+        <p class="footer-text">
+          <span class="address">Адрес:</span> Місто Технологічне,<br />
+          пр-т Сучасний, 29/2
+        </p>
+        <p class="footer-text"><span class="tel">Телефон:</span> 4138-564</p>
+      </div>
+      <div class="footer-logo">
+        <img src="./img/logo.png" />
+      </div>
     </footer>
+    <p class="text-center">&copy; 2025</p>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

@@ -1,12 +1,14 @@
 body {
-  background-color: brown;
+  background-color: #2b1d1a;
   margin: 0;
   font-family: sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header,
 footer {
-  background-color: blueviolet;
+  background-color: #2b1d1a;
 }
 
 a {
@@ -19,4 +21,13 @@ img {
 
 * {
   box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: auto;
 }
